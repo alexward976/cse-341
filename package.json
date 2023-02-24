@@ -2,9 +2,10 @@
   "name": "my-package",
   "version": "1.0.0",
   "description": "npm package used for CSE-341",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/alexward976/cse-341/issues"
   },
-  "homepage": "https://github.com/alexward976/cse-341#readme"
+  "homepage": "https://github.com/alexward976/cse-341#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
