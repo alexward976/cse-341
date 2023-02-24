@@ -1,0 +1,19 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "npm package used for CSE-341",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexward976/cse-341.git"
+  },
+  "author": "Alex Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexward976/cse-341/issues"
+  },
+  "homepage": "https://github.com/alexward976/cse-341#readme"
+}
