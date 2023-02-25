@@ -1,3 +1,5 @@
+# This is my '.rest' file. For some reason, the REST client only works if the filetype is .http
+
 GET http://localhost:3000 HTTP/1.1
 
 
