@@ -25,7 +25,7 @@ GET http://localhost:8080/contacts/63f9341d026dc4f2f2e8ee51
 
 ###
 
-
+# Local CRUD operations
 
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
@@ -41,7 +41,7 @@ content-type: application/json
 
 ###
 
-PUT http://localhost:8080/contacts/63ffde93a2a1a7d233149b8d HTTP/1.1
+PUT http://localhost:8080/contacts/63ffe439f2a108d9d5db72ce HTTP/1.1
 content-type: application/json
 
 {
@@ -55,8 +55,13 @@ content-type: application/json
 
 ###
 
-DELETE http://localhost:8080/contacts/63ffde93a2a1a7d233149b8d HTTP/1.1
+DELETE http://localhost:8080/contacts/63ffe44c3b26e50ed5a942db HTTP/1.1
 
 
 
 ###
+
+
+# RENDER CRUD Operations
+
+
