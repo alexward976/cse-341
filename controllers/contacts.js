@@ -35,7 +35,7 @@ const createContact = async (req, res, next) => {
     const result = await contacts.insertOne(newContact);
 
     console.log(`A document was inserted with the _id: ${result.insertedId}`);
-    res.status(201).json(newContact);
+    res.status(201).json(newContact._id);
   } finally {
     await mongodb.close;
   }
