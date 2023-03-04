@@ -55,7 +55,7 @@ content-type: application/json
 
 ###
 
-DELETE http://localhost:8080/contacts/63ffe44c3b26e50ed5a942db HTTP/1.1
+DELETE http://localhost:8080/contacts/63ffebcba7202d033fb79927 HTTP/1.1
 
 
 
@@ -64,7 +64,7 @@ DELETE http://localhost:8080/contacts/63ffe44c3b26e50ed5a942db HTTP/1.1
 
 # RENDER CRUD Operations
 
-GET https://cse-341-server.onrender.com HTTP/1.1
+GET https://cse-341-server.onrender.com/contacts/ HTTP/1.1
 
 
 ###
@@ -84,7 +84,7 @@ content-type: application/json
 
 ###
 
-PUT https://cse-341-server.onrender.com/contacts/63ffe858f299b00b953e70b5 HTTP/1.1
+PUT https://cse-341-server.onrender.com/contacts/63ffef94d88236b24e8e1dea HTTP/1.1
 content-type: application/json
 
 {
@@ -98,7 +98,7 @@ content-type: application/json
 
 ###
 
-DELETE https://cse-341-server.onrender.com/contacts/63ffeafd016be5070d2a3997 HTTP/1.1
+DELETE https://cse-341-server.onrender.com/contacts/63ffef94d88236b24e8e1dea HTTP/1.1
 
 
 
